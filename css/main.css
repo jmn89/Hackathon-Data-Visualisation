@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.trendlinesGroup {
+  pointer-events: none;
+}
+
+/* navbar */
+#logo {
+  height: 8%;
+  width: 8%;
+}
+#navbarCenter > ul > li > a {
+  color: white;
+}
+#navbarCenter > ul > li:nth-child(3) > div > a {
+  color: white;
+}
+#navbarCenter > ul > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* about page */
+.card {
+  margin: 0 auto;
+}
+#aboutCard {
+  text-align: center;
+}
+
+/* footer */
+#footer > p {
+  text-align: center;
+  font-size: 12px;
+}
